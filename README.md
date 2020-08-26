@@ -75,7 +75,7 @@ This code is made to make use of [mechatronics robotic bluetooth arm](https://ho
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -98,9 +98,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* python
 ```sh
-npm install npm@latest -g
+pip install -r requirements.txt
 ```
 
 ### Installation
@@ -109,19 +109,19 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/Ahmed1262005/how-to-mechatronics-robotic-arm-web-app.git
 ```
-2. Install NPM packages
+2. Do the [robot arm](https://howtomechatronics.com/tutorials/arduino/diy-arduino-robot-arm-with-smartphone-control/) and connect the arduino to a raspberry pi or a computer 
 ```sh
-npm install
+cd how-to-mechatronics-robotic-arm-web-app
+python3 app.py
 ```
-
+and enter the ip of your raspberry pi in another device on the same network or if you used port forwarding you can control the arm from anywhere in the world
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+An easy user interface that can be used from any type of devices from anywhere in the world
+_For more examples, please refer to the [Documentation](https://howtomechatronics.com)_
 
 
 
@@ -158,15 +158,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Your Name - [@Ahmed ElShireef](https://www.facebook.com/ahmed1212005/) - ahmed.121200569@gmail.com
 
 Project Link: [https://github.com/Ahmed1262005/how-to-mechatronics-robotic-arm-web-app](https://github.com/Ahmed1262005/how-to-mechatronics-robotic-arm-web-app)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
 
 
 
