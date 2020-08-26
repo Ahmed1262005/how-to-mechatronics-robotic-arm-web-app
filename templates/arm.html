@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Roboto</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	</head>
+
+<style>
+table ,td, tr {/* 
+Define this in your CSS 
+.bgColor = Replace it by the name you want to give your animation
+.bgAnimObj = Assign this class to the object you want to apply the effect
+*/
+
+.bgAnimObj {
+	background: #1abc9c;
+	/* Chrome, Safari */
+	-webkit-animation: bgColor 5s;
+	/* Firefox */
+	-moz-animation: bgColor 5s;
+	/* Standard Syntax */
+	animation: bgColor 5s;
+}
+
+/* 
+Define the keyframe and changes
+*/
+
+/* Chrome, Safari */
+@-webkit-keyframes bgColor {
+	from {
+ 		background: #1abc9c;
+	} 
+	to {
+ 		background: #ebebeb;
+	}
+}
+
+/* Firefox */
+@-moz-keyframes bgColor {
+    from {
+        background: #1abc9c;
+    }
+    to {
+        background: #ebebeb;
+    }
+}
+
+/* Standard syntax */
+@keyframes bgColor {
+	from {
+		background: #1abc9c;
+	}
+	to {
+		background: #ebebeb;
+	}
+}
+
+		width: 30%;
+}
+
+</style>
+
+	<body bgcolor="#101428" onload="form1.reset();">
+        <div>
+          <style>
+			
+			
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+	float: left;
+}
+
+#myImg:hover {opacity: 0.7;}
+.tsr:hover {background-color: #f5f5f5;}
+
+#myImga {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+	float: left;
+}
+
+#myImga:hover {opacity: 0.7;}
+.tsr:hover {background-color: #f5f5f5;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #44D0E6;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #44D0E6;
+  cursor: pointer;
+}
+</style>
+        </div>
+		<img id="myImga" src="../static/img/Robot-Model_v4.png" style="width:100%; max-width: 500px; max-height:1080px; border-radius:10px" alt="">
+		
+			<style>
+				div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 10px;
+  border: 3px solid #8AC007;
+} 
+	table.absolute2 {
+  padding-right:50%;
+  width: 50%;
+  bottom: 0px;
+  
+} 
+		table.absolute {
+    padding-bottom:50%;
+;
+  width: 50%;
+  bottom: 0px;
+  
+} 
+      #myImg {
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+        float: left;
+      }
+
+      #myImg:hover {
+        opacity: 0.7;
+      }
+
+      .tsr:hover {
+        background-color: #f5f5f5;
+      }
+
+
+      /* The Modal (background) */
+      .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 100px;
+        /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.9);
+        /* Black w/ opacity */
+      }
+
+      /* Modal Content (image) */
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+      }
+
+      /* Caption of Modal Image */
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+      }
+
+      /* Add Animation */
+      .modal-content,
+      #caption {
+        animation-name: zoom;
+        animation-duration: 0.6s;
+      }
+
+      @keyframes zoom {
+        from {
+          transform: scale(0.1)
+        }
+
+        to {
+          transform: scale(1)
+        }
+      }
+
+      /* The Close Button */
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      /* 100% Image Width on Smaller Screens */
+      @media only screen and (max-width: 700px) {
+        .modal-content {
+          width: 100%;
+        }
+      }
+
+      .button2:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .slidecontainer {
+        width: 100%;
+      }
+
+      .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 25px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+      }
+
+      .slider:hover {
+        opacity: 1;
+      }
+
+      .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        background: #44D0E6;
+        cursor: pointer;
+      }
+
+      .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        background: #44D0E6;
+        cursor: pointer;
+      }
+
+    </style>
+    <script>
+      var slider = document.getElementById('slider');
+      slider.addEventListener('input', sliderChange);
+
+    </script>
+    <datalist id="tickmarks">
+      <option value="0" label="0°"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+      <option value="40"></option>
+      <option value="50" label="50°"></option>
+      <option value="60"></option>
+      <option value="70"></option>
+      <option value="80"></option>
+      <option value="90"></option>
+      <option value="100" label="100°"></option>
+      <option value="110"></option>
+      <option value="120"></option>
+      <option value="130"></option>
+      <option value="140"></option>
+      <option value="150" label="150°"></option>
+      <option value="160"></option>
+      <option value="170"></option>
+      <option value="180" label="180°"></option>
+
+    </datalist>
+    <!-- Hospital Slider -->
+    <form method="POST" action="test" id="form1">
+
+      <table style="width:100%; max-width: 500px; height:300px;" align="right" id="tsr" class="w3-table absolute2">
+        <tr>
+		  </tr>
+		  <tr>
+		  </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">GRIP</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="45" max="125" name="s1" class="slider" list="tickmarks" oninput="sliderChange(this.value)" onChange="this.form.submit()" value="{{ s1 }}" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Wrist Pitch</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="0" max="180" name="s2" class="slider" list="tickmarks" oninput="sliderChange(this.value)"  onChange="this.form.submit()" value="{{ s2 }}" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Wrist Roll</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="0" max="180" name="s3" class="slider" oninput="sliderChange(this.value)" onChange="this.form.submit()" value="{{ s3 }}" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Elbow</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="20" max="180" name="s4" class="slider" 
+				   oninput="sliderChange(this.value)" onChange="this.form.submit()" value="{{ s4 }}" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Shoulder</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="100" max="170" name="s5" class="slider" oninput="sliderChange(this.value)" onChange="this.form.submit()" value="{{ s5 }}" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Waist</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="0" max="180" name="s6" class="slider" oninput="sliderChange(this.value)" onChange="this.form.submit()" value="{{ s6 }}" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <h1 style="color:white" class="w3-center">Speed</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="range" min="0" max="60" name="speed" class="slider" oninput="sliderChange(this.value)"  onChange="this.form.submit()" value="{{ speed }}" />
+          </td>
+        </tr>
+      </table>
+
+		</form>
+
+		  </body>
+</html>
